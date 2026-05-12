@@ -1,0 +1,22 @@
+[[tool.uv.index]]
+url = "https://pypi.ci.artifacts.walmart.com/artifactory/api/pypi/pythonhosted-pypi-release-remote/simple/"
+default = true
+
+[project]
+name = "langchain-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=26.3.1",
+    "isort>=8.0.1",
+    "langchain>=1.2.18",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.2.1",
+    "langchain-pinecone>=0.2.0",
+    "langchain-tavily>=0.2.18",
+    "langchain-text-splitters>=0.3.0",
+    "python-dotenv>=1.2.2",
+    "tavily-python>=0.7.24",
+]
