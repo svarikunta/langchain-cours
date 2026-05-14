@@ -10,7 +10,7 @@ load_dotenv()
 
 if __name__ == '__main__':
     print("Ingesting...")
-    loader = TextLoader('/Users/s0v00ar/agentic/langchain-course/mediumblog1.txt')
+    loader = TextLoader('/Users/s0v00ar/agentic/langchain-course/rag/mediumblog1.txt')
     documents = loader.load()
 
     print(f"splitting into chunks...")
